@@ -1,0 +1,58 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\pc\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add bcrypt_lib.node
+
+PATH: 
+  C:\Program Files\Intel\iCLS Client\C：\python27;;:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D;\100\Tools\Binn\;C;\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;%;YSTEMROOT%\System32\OpenSSH\;C:\python27;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;d:\贤哥\100\Tools\Binn\;d:\100\Tools\Binn\;d:\100\DTS\Binn\;d:\贤哥\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;d:\贤哥\100\DTS\Binn\;C:\Program Files (x86)\Intel\iCLS Client\C:python27;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\贤哥\100\Tools\Binn\;D:\100\Tools\Binn\;D:\100\DTS\Binn\;D:\贤哥\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;D:\贤哥\100\DTS\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Users\pc\AppData\Local\Microsoft\WindowsApps;D:\搜狐影音\5.2.3.15;D:\Python27;D:\vs\Microsoft VS Code\bin;D:\PyCharm Community Edition 2018.3.5\bin;C:\Users\pc\AppData\Local\Micro;C:\Program Files\nodejs\node_global\node_modules;C:\Users\pc\AppData\Roaming\npm\node_modules\yarn\bin;C:\Users\pc\AppData\Roaming\npm;D:\sql\bin;
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.6.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/bcrypt_lib.node: Not found
+      at Request.params.callback [as _callback] (C:\Users\pc\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66988:18)
+      at Request.self.callback (C:\Users\pc\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140662:22)
+      at Request.emit (events.js:314:20)
+      at Request.<anonymous> (C:\Users\pc\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141634:10)
+      at Request.emit (events.js:314:20)
+      at IncomingMessage.<anonymous> (C:\Users\pc\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141556:12)
+      at Object.onceWrapper (events.js:420:28)
+      at IncomingMessage.emit (events.js:326:22)
+      at endReadableNT (_stream_readable.js:1244:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "blog-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server.js",
+      "server": "nodemon server.js"
+    },
+    "author": "OKOK",
+    "license": "ISC",
+    "dependencies": {
+      "bcrypt": "^5.0.1",
+      "body-parser": "^1.19.0",
+      "express": "^4.17.1",
+      "gravatar": "^1.8.1",
+      "jsonwebtoken": "^8.5.1",
+      "moment": "^2.29.1",
+      "mongoose": "^5.12.4",
+      "multer": "^1.4.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
