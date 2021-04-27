@@ -8,7 +8,7 @@
 import jwt_decode from 'jwt-decode'
 export default {
   name: 'App',
-  //目的是：不让 vuex 的数据刷新之后消失
+  // 目的是：不让 vuex 的数据刷新之后消失
   created (){
     if(localStorage.okokToken) {
       let decode = jwt_decode(localStorage.okokToken)
